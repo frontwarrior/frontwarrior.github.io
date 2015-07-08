@@ -170,9 +170,7 @@
 }
 
 .slider {
-	width: 100%;
-	height: 491px;
-	background: url('path.png') repeat-x;
+	background: url('./path.png') repeat-x;
 	position: relative;
 }
 

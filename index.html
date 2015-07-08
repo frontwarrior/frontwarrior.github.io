@@ -6,6 +6,13 @@
 	<link rel="stylesheet" href="./src/normalize.css">
 	<link rel="stylesheet" href="./src/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="./src/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
 </head>
 <body>
 	<header class="page-header">
@@ -38,21 +45,37 @@
 	</header>
 	<main class="page-main">
 
-		<div class="slider">
-			<div class="slider-content">
-				<p class="slider-content__header">Good design is good business</p>
-				<p class="slider-content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nam reprehenderit quo temporibus magni cumque a, autem, natus quia, reiciendis quam nisi voluptatibus sit nihil ex nesciunt fugiat deserunt sint!</p>
-				<a href="#" class="slider-link"><div class="slider-link__button">Learn more</div></a>
-			</div>
-			<div class="slider-nav">
-				<ul class="slider-menu">
-					<li class="slider-menu__item"><a href="#" class="slider-menu__link"></a></li>
-					<li class="slider-menu__item"><a href="#" class="slider-menu__link"></a></li>
-					<li class="slider-menu__item"><a href="#" class="slider-menu__link"></a></li>
-					<li class="slider-menu__item active"><a href="#" class="slider-menu__link"></a></li>
-					<li class="slider-menu__item"><a href="#" class="slider-menu__link"></a></li>
-				</ul>
-			</div>
+		<div class="slider flexslider">
+			<ul class="slides">
+				<li>
+					<div class="slider-content">
+						<p class="slider-content__header">Good design is good business</p>
+						<p class="slider-content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nam reprehenderit quo temporibus magni cumque a, autem, natus quia, reiciendis quam nisi voluptatibus sit nihil ex nesciunt fugiat deserunt sint!</p>
+						<a href="#" class="slider-link"><div class="slider-link__button">Learn more</div></a>
+					</div>
+				</li>
+				<li>	
+					<div class="slider-content">
+						<p class="slider-content__header">Good design is good business</p>
+						<p class="slider-content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nam reprehenderit quo temporibus magni cumque a, autem, natus quia, reiciendis quam nisi voluptatibus sit nihil ex nesciunt fugiat deserunt sint!</p>
+						<a href="#" class="slider-link"><div class="slider-link__button">Learn more</div></a>
+					</div>
+				</li>
+				<li>	
+					<div class="slider-content">
+						<p class="slider-content__header">Good design is good business</p>
+						<p class="slider-content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nam reprehenderit quo temporibus magni cumque a, autem, natus quia, reiciendis quam nisi voluptatibus sit nihil ex nesciunt fugiat deserunt sint!</p>
+						<a href="#" class="slider-link"><div class="slider-link__button">Learn more</div></a>
+					</div>
+				</li>
+				<li>	
+					<div class="slider-content">
+						<p class="slider-content__header">Good design is good business</p>
+						<p class="slider-content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nam reprehenderit quo temporibus magni cumque a, autem, natus quia, reiciendis quam nisi voluptatibus sit nihil ex nesciunt fugiat deserunt sint!</p>
+						<a href="#" class="slider-link"><div class="slider-link__button">Learn more</div></a>
+					</div>
+				</li>	
+			</ul>		
 		</div>
 
 		<div class="page-main-our-services">
