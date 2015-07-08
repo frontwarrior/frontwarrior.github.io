@@ -9,49 +9,55 @@
 </head>
 <body>
 	<header class="page-header">
-		<div class="wrapper">
-			<div class="page-header-logo">
-				<div class="page-header-logo-figure circle"></div>
-				<div class="page-header-logo-figure square"></div>
-				<div class="page-header-logo-text">Your Logo</div>
+		<div class="container">
+			<div class="header-logo">
+				<a href="index.html" class="header-link">
+					<div class="header-logo__figure circle"></div>
+					<div class="header-logo__figure square"></div>
+					<div class="header-logo__text">Your Logo</div>
+				</a>			
 			</div>
-			<nav class="page-header-navigation">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a href="#">Blog</a></li>
-				</ul>
-			</nav>
-			<div class="page-header-search">
-				<span>Search</span>
-				<div class="page-header-search-icon">
-					<img src="./src/vector-smart-object.png" alt="Search button">
+
+				<nav class="main-navigation">
+					<ul class="main-menu">
+						<li class="main-menu__item"><a href="index.html" class="main-menu__link">Home</a></li>
+						<li class="main-menu__item"><a href="#" class="main-menu__link">Portfolio</a></li>
+						<li class="main-menu__item"><a href="about.html" class="main-menu__link">About</a></li>
+						<li class="main-menu__item"><a href="#" class="main-menu__link">Contact</a></li>
+						<li class="main-menu__item"><a href="#" class="main-menu__link">Blog</a></li>
+					</ul>
+				</nav>
+				<div class="page-header-search">
+					<span>Search</span>
+					<div class="page-header-search-icon">
+						<img src="./src/vector-smart-object.png" alt="Search button">
+					</div>
 				</div>
-			</div>
-		</div>
+			</div>	
+	
 	</header>
 	<main class="page-main">
 
-		<div class="page-main-slider">
-			<div class="page-main-slider-content">
-				<h1>Good design is good business</h1>
-				<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nam reprehenderit quo temporibus magni cumque a, autem, natus quia, reiciendis quam nisi voluptatibus sit nihil ex nesciunt fugiat deserunt sint!</span>
-				<div class="page-main-slider-content-button">Learn more</div>
+		<div class="slider">
+			<div class="slider-content">
+				<p class="slider-content__header">Good design is good business</p>
+				<p class="slider-content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nam reprehenderit quo temporibus magni cumque a, autem, natus quia, reiciendis quam nisi voluptatibus sit nihil ex nesciunt fugiat deserunt sint!</p>
+				<a href="#" class="slider-link"><div class="slider-link__button">Learn more</div></a>
 			</div>
-			<nav class="page-main-slider__nav">
-				<div class="page-main-slider__nav__indicator"></div>
-				<div class="page-main-slider__nav__indicator"></div>
-				<div class="page-main-slider__nav__indicator"></div>
-				<div class="page-main-slider__nav__indicator active"></div>
-				<div class="page-main-slider__nav__indicator"></div>
-			</nav>
+			<div class="slider-nav">
+				<ul class="slider-menu">
+					<li class="slider-menu__item"><a href="#" class="slider-menu__link"></a></li>
+					<li class="slider-menu__item"><a href="#" class="slider-menu__link"></a></li>
+					<li class="slider-menu__item"><a href="#" class="slider-menu__link"></a></li>
+					<li class="slider-menu__item active"><a href="#" class="slider-menu__link"></a></li>
+					<li class="slider-menu__item"><a href="#" class="slider-menu__link"></a></li>
+				</ul>
+			</div>
 		</div>
 
 		<div class="page-main-our-services">
 			<div class="page-main-our-services__label">Our services</div>
-			<div class="page-main-our-services-content wrapper">
+			<div class="page-main-our-services-content container">
 				<div class="page-main-our-services-item item_1">
 					<h2>Web Design</h2>
 					<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia laboriosam. <a href="#">Details...</a></span>
@@ -73,7 +79,7 @@
 		</div>
 
 		<div class="page-main-portfolio">
-			<div class="wrapper">
+			<div class="container">
 				<h1>Our Portfolio Awesome</h1>
 				<div class="page-main-portfolio-button">
 					More Works
@@ -101,7 +107,7 @@ elitmauris nec ipsum at lacus commodo suscipit.</span>
 		</div>
 
 		<div class="page-main-offer">
-			<div class="wrapper">
+			<div class="container">
 				<div class="page-main-offer__what">
 					<h1>What we offer</h1>
 					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies sagittis magnaa commodo. Ut eget eros mauris, ut cursus urna.
@@ -130,7 +136,7 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</span>
 			</div>
 		</div>
 		<div class="page-main-testimonials">
-			<div class="wrapper">
+			<div class="container">
 				<h1>Testimonials</h1>
 				<span>“Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris necip at lacus commodo suscipit praesent sollicitudin enim vel mirhon”</span>
 				<div class="page-main-testimonials-persons">
@@ -143,7 +149,7 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</span>
 		</div>
 	</main>
 	<footer class="page-footer">
-		<div class="wrapper">
+		<div class="container">
 			<div class="page-footer-content">
 				<div class="page-footer-content-item item_1">
 					<h1>Twitter feeds</h1>

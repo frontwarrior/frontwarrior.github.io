@@ -16,6 +16,5 @@
 # and, you'll have to watch "config/Guardfile" instead of "Guardfile"
 
 guard 'livereload' do
-  watch(%r{.+\.(css|js|html)})
-  
+  watch(%r{.+\.(css|js|html)})  
 end
